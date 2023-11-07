@@ -1,0 +1,130 @@
+[
+    {
+        "Topic": "harry potter",
+        "difficulty": "easy",
+        "question": "From which platform at Kings cross does the Hogwarts Express train depart",
+        "correct_answer": "Nine and three quarters",
+        "options": [
+            "Gringotts",
+            "Wand",
+            "Nine and three quarters",
+            "The trolls club"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "easy",
+        "question": "Harry has a scar on his forehead. Which shape is it?",
+        "correct_answer": "lightning bolt",
+        "options": [
+            "pigs tail",
+            "lightning bolt",
+            "shaining star",
+            "egg"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "medium",
+        "question": "Harrys uncle and aunt, the dursleys live at what address?",
+        "correct_answer": "Number 4, Privet drive",
+        "options": [
+            "Nine and three quarters",
+            "The trolls club",
+            "Number 4, Privet drive",
+            "Gringotts"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "hard",
+        "question": "Hermiones parents are not wizards. What non-wizards jobs do they do?",
+        "correct_answer": "Mechanic",
+        "options": [
+            "Physician",
+            "Tailor",
+            "Dentists",
+            "Mechanic"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "medium",
+        "question": "how do the dursleys say that Harrys parents died?",
+        "correct_answer": "car crash",
+        "options": [
+            "car crash",
+            "aeroplane crash",
+            "cancer",
+            "heart attack"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "medium",
+        "question": "how old was Voldemort when he opened the chamber of secrets?",
+        "correct_answer": "16",
+        "options": [
+            "15",
+            "17",
+            "16",
+            "18"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "easy",
+        "question": "On a Quidditch pitch, how many goal posts are there in total?",
+        "correct_answer": "4",
+        "options": [
+            "4",
+            "6",
+            "5",
+            "7"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "medium",
+        "question": "In philosopher's stone, who reports the commentary for the quidditch matches at hogwarts",
+        "correct_answer": "Lee Jordan",
+        "options": [
+            "Dumbledore",
+            "Mrs Norris",
+            "Lee Jordan",
+            "Professor Sprout"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "hard",
+        "question": "In second year, Hermione drank Polyjuice potion which gave her rat like features",
+        "correct_answer": "false",
+        "options": [
+            "true",
+            "false"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "medium",
+        "question": "In which year (1-7) did Harry go on his first date with cho chang?",
+        "correct_answer": "5",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "Topic": "harry potter",
+        "difficulty": "easy",
+        "question": "Sirius Black was sorted into Slytherin house",
+        "correct_answer": "false",
+        "options": [
+            "false",
+            "true"
+        ]
+    }
+]
