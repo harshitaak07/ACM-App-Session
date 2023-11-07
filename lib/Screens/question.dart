@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:app_sesh/Data/model.dart';
 import 'package:app_sesh/Widget/shapechip.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class questionr extends StatefulWidget {
   const questionr({super.key});
@@ -94,10 +95,10 @@ class _questionrState extends State<questionr> {
                       Expanded(
                         child: Text(
                           questions[index].question.toString(),
-                          style: const TextStyle(
+                          style: GoogleFonts.nunito(
                               color: Colors.black,
-                              fontSize: 12.0,
-                              fontWeight: FontWeight.w500),
+                              fontSize: 14.0,
+                              fontWeight: FontWeight.w600),
                         ),
                       ),
                       IconButton(
