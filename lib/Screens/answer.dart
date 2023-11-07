@@ -1,3 +1,4 @@
+import 'package:app_sesh/Screens/Resscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:like_button/like_button.dart';
 
@@ -65,6 +66,12 @@ class _AnswerState extends State<Answer> {
                       if (isCorrectAnswer) {
                         selectedIndices.clear();
                         selectedIndices.add(index);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Resscreen(),
+                          ),
+                        );
                       }
                     });
                     return;
