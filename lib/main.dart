@@ -32,12 +32,12 @@ class MyApp extends StatelessWidget {
           }
         } else if (settings.name == '/question') {
           return MaterialPageRoute(
-            builder: (context) => const questionr(),
+            builder: (context) => const question(),
           );
         } // Handle other routes if needed
       },
       debugShowCheckedModeBanner: false,
-      home: const questionr(),
+      home: const question(),
     );
   }
 }
