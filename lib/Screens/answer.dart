@@ -50,9 +50,8 @@ class _AnswerState extends State<Answer> {
       itemCount: widget.answers.length,
       itemBuilder: (BuildContext context, int index) {
         bool isCorrectAnswer = widget.answers[index] == widget.quest;
-        Color tileColor = selectedIndices.contains(index)
-            ? Colors.green
-            : (isCorrectAnswer ? Color(0xFFA06CD5) : Color(0xFFA06CD5));
+        Color tileColor =
+            selectedIndices.contains(index) ? Colors.green : Color(0xFFA06CD5);
         return Padding(
             padding: const EdgeInsets.all(25.0),
             child: Container(
