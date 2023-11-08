@@ -15,7 +15,6 @@ class Answer extends StatefulWidget {
 // ignore: camel_case_types
 class _AnswerState extends State<Answer> {
   Color? tileColor;
-  Color? TileColor;
   Set<int> selectedIndices = {};
 
   @override
