@@ -43,7 +43,7 @@ class _ResscreenState extends State<Resscreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const questionr()),
+                  MaterialPageRoute(builder: (context) => const question()),
                 );
               },
               label: const Text(

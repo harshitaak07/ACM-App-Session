@@ -4,22 +4,22 @@ import 'package:app_sesh/Data/model.dart';
 import 'package:app_sesh/Widget/shapechip.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class questionr extends StatefulWidget {
-  const questionr({super.key});
+class question extends StatefulWidget {
+  const question({super.key});
 
   @override
-  State<questionr> createState() => _questionrState();
+  State<question> createState() => _questionState();
 }
 
 // ignore: camel_case_types
-class _questionrState extends State<questionr> {
-  late Future<List<model>> _questionsFuture;
+class _questionState extends State<question> {
+  late Future<List<model>> questionsFuture;
   List<model> questions = [];
 
   @override
   void initState() {
     super.initState();
-    _questionsFuture = _loadQuestions();
+    questionsFuture = loadQuestions();
     getQuestions();
   }
 
@@ -35,7 +35,7 @@ class _questionrState extends State<questionr> {
     });
   }
 
-  Future<List<model>> _loadQuestions() async {
+  Future<List<model>> loadQuestions() async {
     // Load JSON data from assets
     String jsonData = await DefaultAssetBundle.of(context)
         .loadString('assets/questions.json');
@@ -60,7 +60,7 @@ class _questionrState extends State<questionr> {
           ),
         ),
         body: FutureBuilder(
-            future: _loadQuestions(),
+            future: loadQuestions(),
             builder:
                 (BuildContext context, AsyncSnapshot<List<model>> snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
